@@ -1,0 +1,101 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+
+
+#wrapper {
+    background-color: #12355B;
+    width: 970px;
+    overflow: hidden;
+    height: auto;
+    padding: 10px;
+
+}
+
+#title {
+    background-color: rgb(215,38,56);
+    display: block;
+    border-radius: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#header {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(191,215,234);
+    margin-left: 20px;
+}
+
+#navigation {
+    background-color: rgb(8,126,139);
+    display: inline-block;
+    width: 140px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+a {
+    color: rgb(82,222,229);
+}
+
+#content{
+    display: inline-block;
+    width: 745px;
+    background-color: RGB(12,24,33);
+    vertical-align: top;
+    margin-left: 15px;
+    border-radius: 10px;
+    color: rgb(191,215,234);
+    padding: 10px;
+}
+
+#footer {
+    display: block;
+    background-color: RGB(92,102,114);
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#footertext {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(191,215,234);
+    margin-left: 20px;
+}
+
+.innerlist {
+    margin-left: 5px;
+}
+
+p {
+    color: rgb(191,215,234);
+}
+
+span {
+    color: rgb(118,146,248);
+}
+
+h2 {
+    color: rgb(191,215,234);
+}
+
+#jsbullets {
+    margin-left: 10px;
+}
+
+
+#jstitle, #jsdescription {
+    margin-bottom: 10px;
+}
+
+.bullet {
+    margin-bottom: 10px;
+}
+
